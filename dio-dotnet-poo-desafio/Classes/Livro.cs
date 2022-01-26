@@ -35,8 +35,9 @@ namespace DIO.Series
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             retorno += "Edição: " + this.Edicao + Environment.NewLine;
-            retorno += "Excluido: " + this.Excluido  + Environment.NewLine;
-            retorno += "Autor: " + this.Autor;
+			retorno += "Autor: " + this.Autor   + Environment.NewLine;
+            retorno += "Excluido: " + this.Excluido;
+            
 			return retorno;
 		}
 
